@@ -5,6 +5,7 @@ on:
     tags:
       - 'v*'
       - '!*-test'
+      - '!*-b14.*' # base14 builds, see base14-release.yml
 
 permissions:
   contents: write
